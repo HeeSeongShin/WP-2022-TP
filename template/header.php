@@ -9,6 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link href="<?=$root?>src/css/reset.css" rel="stylesheet"/>
   <link href="<?=$root?>src/css/style.css" rel="stylesheet"/>
-  <title>Document</title>
+  <title>TO-DO-LIST</title>
 </head>
 <body>
