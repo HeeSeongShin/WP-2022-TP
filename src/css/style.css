@@ -110,3 +110,10 @@ a {
 .register__box .logo {
   margin-bottom: 40px;
 }
+
+
+.find__box{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
