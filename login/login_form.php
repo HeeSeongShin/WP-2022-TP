@@ -1,6 +1,4 @@
 <?php $root="../";?>
-
-<?php include("../template/header.php"); ?>
 <?php
   session_start();
   if(isset($_SESSION["error"])){
@@ -11,6 +9,7 @@
     session_destroy();
   }
 ?>
+<?php include("../template/header.php"); ?>
 
 <div class="wrap">
   <div class="login__container">

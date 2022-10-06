@@ -18,7 +18,7 @@
   
   if($id != "" && $pw != "" && $name != ""){
     for($i=0; $i<sizeof($userList->user); $i++){
-      if($id == $userList->user[$i]->id){
+      if($id == $userList->user[$i]->id || $email == $userList->user[$i]->email){
         $check = false;
         break;
       }
