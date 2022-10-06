@@ -2,6 +2,7 @@
   $id = $_POST["registerId"];
   $pw = $_POST["registerPw"];
   $name = $_POST["registerName"];
+  $email = $_POST["registerEmail"];
 
   $userList = file_get_contents("../data/user.json");
   $userList = json_decode($userList);
@@ -9,7 +10,8 @@
   $newUser = array(
     "id" => $id,
     "pw" => $pw,
-    "name" => $name
+    "name" => $name,
+    "email" => $email
   ); 
 
   $check = true;
@@ -24,9 +26,6 @@
   }else{
     $check = false;
   }
-
-
-
 
   if(!$check){
     header("Location: ./register_form.php");

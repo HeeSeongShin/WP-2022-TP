@@ -23,6 +23,7 @@ input {
   padding: 0 20px;
 }
 
+/* 로그인 */
 .login__container {
   min-height: 100vh;
   display: flex;
@@ -68,7 +69,7 @@ a {
   color: black;
   padding: 0px;
 }
-
+/* 회원가입 */
 .register__container {
   min-height: 100vh;
   display: flex;
@@ -109,4 +110,59 @@ a {
 
 .register__box .logo {
   margin-bottom: 40px;
+}
+
+.find__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* 아이디 찾기 */
+.find__id__container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find__id__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #d7d7d7;
+  padding: 60px 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.find__id__box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.find__id__box p {
+  margin-bottom: 10px;
+}
+
+.find__id__box input {
+  margin-bottom: 20px;
+}
+
+.find__id__box button {
+  width: 100%;
+  padding: 12px 0;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.find__id__box .logo {
+  margin-bottom: 40px;
+}
+
+.find__id__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }

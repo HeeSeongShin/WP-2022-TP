@@ -22,10 +22,10 @@
         <button class="login__btn">로그인</button>
         </form>
           <div class="find__box">
-            <a href="../find/id_find_submit.php">
+            <a href="../find/id_find_form.php">
               아이디 찾기
             </a>
-            <a href="../find/pw_find_submit.php">
+            <a href="../find/pw_find_form.php">
               비밀번호 찾기
             </a>
             <a href="../register/register_form.php">

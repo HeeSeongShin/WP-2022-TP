@@ -7,6 +7,8 @@
       <form method="POST" action="./register_submit.php">
         <p>이름</p>
         <input type="text" name="registerName"/>
+        <p>이메일</p>
+        <input type="email" name="registerEmail"/>
         <p>아이디</p>
         <input type="text" name="registerId"/>
         <p>비밀번호</p>

@@ -1,1 +1,10 @@
-{"user":[{"id":"gmltjd3922","pw":"gmltjd323099","name":"\uc2e0\ud76c\uc131"},{"id":"sung3022","pw":"gmltjd323099","name":"\uc2e0\ud76c\uc131"},{"id":"gmlrkd3922","pw":"2153159op","name":"\uc2e0\ud76c\uc131"},{"id":"sung3922","pw":"gmltjd323099","name":"\uc2e0\ud76c\uc131"}]}
+{
+  "user": [
+    {
+      "id": "gmltjd3922",
+      "pw": "gmltjd323099",
+      "name": "\uc2e0\ud76c\uc131",
+      "email": "gmltjd3922@naver.com"
+    }
+  ]
+}
